@@ -1,0 +1,16 @@
+.sign-in-up a {
+  text-decoration: none;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in-up a:hover,
+.sign-in-up a:active {
+  outline: none;
+  text-decoration: wavy;
+  color: #00000038;
+}
+
+.sign-in-up {
+  margin-left: 1rem; 
+}

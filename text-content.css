@@ -1,0 +1,17 @@
+.text-content {
+  text-align: left;
+  max-width: 550px;
+  margin-right: -150px;
+  margin-bottom: 250px;
+}
+
+.text-content h1 {
+  font-size: 3.5em;
+  text-wrap: balance;
+}
+
+.text-content p {
+  font-size: 1.2em;
+  text-wrap: balance;
+  padding-bottom: 2rem;
+}

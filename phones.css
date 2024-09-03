@@ -1,0 +1,9 @@
+.phones {
+  justify-self: left;
+  margin-left: -150px;
+}
+
+.phone-image {
+  max-width: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,31 @@
+.discover-container {
+  display: flex;
+  position: relative;
+  align-items: baseline;
+  
+  
+}
+
+.discover-btn {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  
+}
+
+.discover-btn svg {
+padding: 0.44rem;
+background-color: white;
+border-radius: 50%;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.text-btn {
+  margin-left: 1rem;
+}

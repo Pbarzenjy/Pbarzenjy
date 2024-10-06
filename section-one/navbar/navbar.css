@@ -3,16 +3,21 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
+  
+  
 }
 
 .nav-links {
   list-style: none;
   text-decoration: none;
+  
 }
 
 .nav-links a {
   text-decoration: none;
   color: #333;
+  font-size: large;
+  
 }
 
 .nav-links a:hover,

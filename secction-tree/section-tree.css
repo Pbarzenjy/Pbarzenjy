@@ -1,0 +1,14 @@
+.section-tree {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem;
+}
+
+.compact-text {
+  max-width: 600px; 
+  margin: 0 auto; 
+  text-align: center; 
+  
+}
+

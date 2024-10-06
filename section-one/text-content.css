@@ -1,0 +1,26 @@
+.text-content {
+  text-align: left;
+  
+}
+
+.text-content h1 {
+  font-size: 3.5em;
+  text-wrap: balance;
+  margin: 1rem 0;
+}
+
+.text-content p {
+  font-size: 1.2em;
+  text-wrap: balance;
+  margin-bottom: 3.5rem;
+  
+}
+
+.leftside-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+  padding: 4rem 0;
+
+}

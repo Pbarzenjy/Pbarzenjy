@@ -1,0 +1,92 @@
+.section-flower {
+  display: grid;
+  justify-content: center;
+  background-color: #f8f9fc;
+}
+
+.section-flower-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.section-flower-top-text {
+  max-width: 400px;
+}
+
+.flower-top-photo {
+  max-width: 450px;
+  margin-left: 10rem;
+}
+
+.section-flower-top-text h2 {
+  font-size: 32px;
+  text-wrap: balance;
+}
+
+.checklist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 16px;
+  color: rgb(66, 81, 216);
+}
+
+.sign-in-up .learn-more {
+  font-size: 14px;
+  padding: 10px 30px;
+  margin-top: 1rem;
+}
+
+.section-flower-bottom {
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.flower-bottom-photo {
+  max-width: 450px;
+  margin-right: 10rem;
+}
+
+.section-flower-bottom h2 {
+  font-size: 32px;
+  text-wrap: balance;
+  max-width: 400px;
+}
+
+.section-flower-bottom p {
+  text-wrap: balance;
+}
+
+.feature-two {
+  display: grid;
+}
+
+.payment-from {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-from p {
+  max-width: 250px;
+  text-wrap: balance;
+  line-height: 25px;
+}

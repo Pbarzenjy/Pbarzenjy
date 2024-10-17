@@ -1,0 +1,137 @@
+.contact-info {
+  display: flex;
+  position: relative;
+  flex-direction: column; /* Gör varje kontaktsektion i en vertikal rad */
+  gap: 1rem;
+}
+
+.contact-email,
+.careers {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contact-email div {
+  display: flex;
+  flex-direction: column; /* Texten och länken i vertikal layout */
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.contact-text p {
+  margin: 0;
+  max-width: 350px;
+}
+
+.contact-text a {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container svg {
+  width: 24px;
+  height: 24px;
+  color: #6366f1;
+}
+
+.contact-link svg {
+  margin-left: 10px;
+}
+
+.appointment-form {
+  display: grid;
+  box-sizing: border-box;
+  width: 636px;
+  height: 718px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 4rem;
+  position: absolute;
+  right: 0px;
+}
+
+.appointment-form h2 {
+  font-size: 32px;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+.input-boxes {
+  margin-bottom: 20px;
+}
+
+.input-boxes p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-boxes input,
+.input-boxes select {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 45px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+.input-boxes input:focus,
+.input-boxes select:focus {
+  outline: none;
+}
+
+.button-make {
+  background-color: #6366f1; /* Färg för knappen */
+  color: rgb(122, 7, 7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  height: 52px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.button-make p {
+  color: white;
+}
+
+.button-make:hover {
+  background-color: #357abd; /* Mörkare blå vid hover */
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-boxes select {
+  background-color: white;
+}
+
+.map {
+  padding: 20rem 0rem;
+}
+
+.map img {
+  border-radius: 2%;
+}
+
+.down-section {
+  background-color: white;
+}

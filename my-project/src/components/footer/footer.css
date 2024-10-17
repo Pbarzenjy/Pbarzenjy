@@ -62,3 +62,20 @@ input[type="email"]::placeholder {
 .subscribe-button:hover {
   background-color: #5751d1;
 }
+
+
+.all-rights {
+  display: flex;
+  background-color: white;
+}
+
+.paragraf {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.paragraf p {
+  color: grey;
+  
+}
+

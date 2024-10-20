@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="sec-footer">
         <div className="img-footer">
           <img src={Noti} alt="" />
-          <h3>Subscribe to our newsletter to stay informed about latest updates</h3>
+          <h3 className='footer-h3'>Subscribe to our newsletter to stay informed about latest updates</h3>
         </div>
         <div className="subscription-container">
           <form className="subscription-form">

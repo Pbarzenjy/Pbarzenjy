@@ -1,11 +1,13 @@
 import '../section-one/section-one.css'; 
-import Appstore from '../../../public/images/sectionone/appstore.png' 
-import Googleplay from '../../../public/images/sectionone/googleplay.png'
+import AppstoreLight from '../../../public/images/sectionone/appstore.png' 
+import AppstoreDark from '../../../public/images/sectionone/appstore-dark.png' 
+import GoogleplayLight from '../../../public/images/sectionone/googleplay.png'
+import GoogleplayDark from '../../../public/images/sectionone/googleplay-dark.png'
 import Phones from '../../../public/images/sectionone/phones.png'
 
 
 
-const SectionOne = () => {
+const SectionOne = ({isDarkMode}) => {
   return (
     <div className ="section-one">
     <div className ="section">
@@ -25,14 +27,14 @@ const SectionOne = () => {
                 <div className ="buttons">
                   <button className ="store-button">
                     <img
-                      src={Appstore}
+                      src={isDarkMode ? AppstoreDark : AppstoreLight}
                       alt="App Store"
                       className ="store-image"
                     />
                   </button>
                   <button className ="store-button">
                     <img
-                      src={Googleplay}
+                      src={isDarkMode ? GoogleplayDark : GoogleplayLight}
                       alt="Google Play"
                       className ="store-image"
                     />

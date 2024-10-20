@@ -17,18 +17,17 @@ const SectionFour = () => {
          <h2>Make your money transfer simple and clear</h2>
          <ul className="checklist">
            <li>
-             {/* <span className="checkmark"
-               ><i className="fa-regular fa-circle-check"></i ></span> */}
+             
                <FontAwesomeIcon className='checkmark' icon={faCircleCheck}/>
              Banking transactions are free for you
            </li>
            <li>
-             {/* <span className="checkmark"><i className="fa-regular fa-circle-check"></i></span> */}
+             
              <FontAwesomeIcon className='checkmark'  icon={faCircleCheck}/>
              No monthly cash commission
            </li>
            <li>
-             {/* <span className="checkmark"><i className="fa-regular fa-circle-check"></i></span> */}
+             
              <FontAwesomeIcon className='checkmark'  icon={faCircleCheck}/>
              Manage payments and transactions online
            </li>

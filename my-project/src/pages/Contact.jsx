@@ -5,6 +5,13 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import map from '../../public/images/contact/map.png'
+import { SlLocationPin } from "react-icons/sl";
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { FaRegClock } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaYoutube } from "react-icons/fa";
 
 const Contact = () => {
   return  <> 
@@ -70,21 +77,69 @@ const Contact = () => {
  </div>
   </div>
 </div>
-<div className="down-section">
+<div className="background">
  <div className="section"> 
-   <div className="map">
+<div className="down-section">
+ 
+    <div className="map">
     <img src={map}alt="" />
-   </div>
-   <div className="down-section-text">
-    <h2>Medical Center 1</h2>
+    </div>
+    <div className="down-section-text">
+    <h3>Medical Center 1</h3>
     <div className="down-section-info">
       <div className="down-section-info-container">
-        {/* fontawesome  */}
+      <SlLocationPin style={{ color: '#6366F1', strokeWidth: 40 }} />
+      <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
       </div>
+     <div className="down-section-info-container">
+     <LiaPhoneVolumeSolid style={{ color: '#6366F1', strokeWidth: 1 }} />
+       <p>(406) 555-0120</p>
+     </div>
+     <div className="down-section-info-container">
+     <FaRegClock style={{ color: '#6366F1', strokeWidth: 5 }} />
+     <p>
+    <strong>Mon – Fri:</strong> 9:00 am – 22:00 am<br />
+    <strong>Sat – Sun:</strong> 9:00 am – 20:00 am
+  </p>
+     </div>
+      
 
     </div>
+    
+    <div className="down-section-info-one">
+      <h3>Medical Center 2</h3>
+      <div className="down-section-info-container">
+      <SlLocationPin style={{ color: '#6366F1', strokeWidth: 40 }} />
+      <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+      </div>
+     <div className="down-section-info-container">
+     <LiaPhoneVolumeSolid style={{ color: '#6366F1', strokeWidth: 1 }} />
+       <p>(406) 555-0120</p>
+     </div>
+     <div className="down-section-info-container">
+     <FaRegClock style={{ color: '#6366F1', strokeWidth: 5 }} />
+     <p>
+    <strong>Mon – Fri:</strong> 9:00 am – 22:00 am<br />
+    <strong>Sat – Sun:</strong> 9:00 am – 20:00 am
+  </p>
+     </div>
+    
+    </div> 
+    <div className="social-media-container">
+     <div className="social-media"><FaFacebookSquare />
+     </div>
+     <div className="social-media"><FaTwitter />
+     </div>
+     <div className="social-media"><RiInstagramFill />
+     </div>
+     <div className="social-media"><FaYoutube />
+     </div>
+     </div>
    </div>
- </div>
+   
+
+   </div>
+</div>
  </div>
 
     

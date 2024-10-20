@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   gap: 3rem;
+  margin-bottom: 3rem;
 }
 
 .contact-email div {
@@ -124,14 +125,59 @@
   background-color: white;
 }
 
-.map {
-  padding: 20rem 0rem;
-}
-
 .map img {
   border-radius: 2%;
 }
 
 .down-section {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 20rem 0rem;
+}
+
+.down-section-info {
+  display: grid;
+}
+
+.background {
   background-color: white;
+}
+
+.down-section-info-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-container {
+  display: flex;
+}
+
+.down-section-text h3 {
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.down-section-info-container p {
+  margin: 5px;
+}
+
+.social-media {
+  width: 44px;
+  height: 44px;
+  background-color: #eff2fc;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.social-media-container {
+  gap: 1rem;
+}
+
+.down-section-info-one {
+  margin-top: 3rem;
 }

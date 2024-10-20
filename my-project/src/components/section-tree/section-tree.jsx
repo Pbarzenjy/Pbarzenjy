@@ -9,7 +9,8 @@ const SectionThree = () => {
   return (
 <div className="section-tree">
         <div className="section">
-          <h2>How Does It Work?</h2>
+        <h2 style={{ margin: 'auto' }}>How Does It Work?</h2>
+
           <div className="tree-phones">
             <img src={ProOne} alt="" />
             <img src={ProTwo} alt="" />

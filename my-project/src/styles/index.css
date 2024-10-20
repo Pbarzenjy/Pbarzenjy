@@ -27,3 +27,238 @@ p {
   color: #565973;
   font-size: 1rem;
 }
+
+/* Dark-theme-starts */
+
+/* '.dark-theme .section-one svg {
+  background-color: rgb(28, 28, 65);
+}
+
+.dark-theme .section-two {
+  background-color: black;
+}
+
+.dark-theme .section-flower {
+  background-color: black;
+}
+
+.dark-theme .navbar a {
+  color: #ffffff;
+}
+
+.dark-theme .dark-mode-toggle #dark-mode {
+  color: #ffffff;
+}
+
+.dark-theme .text-content h1 {
+  color: #ffffff;
+}
+
+.dark-theme .brands {
+  color: transparent;
+}
+
+.dark-theme .brands {
+  background-color: transparent;
+}
+
+.dark-theme .app-feature-text h2 {
+  color: white;
+}
+
+.dark-theme .feature h3 {
+  color: white;
+}
+
+.dark-theme .section-tree h2 {
+  color: white;
+}
+
+.dark-theme .section-flower-top-text h2 {
+  color: white;
+}
+
+.dark-theme .section-flower-bottom h2 {
+  color: white;
+}
+
+.dark-theme .section-five-customers h2 {
+  color: white;
+}
+
+.dark-theme .testimonial-bubble {
+  background-color: rgba(46, 42, 65, 0.452);
+  border: 0;
+}
+
+.dark-theme .testimonial-bubble-name h5 {
+  color: white;
+}
+
+.dark-theme p {
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.dark-theme .checklist li {
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.dark-theme .section-six {
+  background-color: black;
+}
+
+.dark-theme .section-six h2 {
+  color: white;
+}
+
+.dark-theme .contact-container {
+  border: 0;
+  background-color: rgba(46, 42, 65, 0.452);
+}
+
+.dark-theme .faq-item {
+  background-color: rgba(46, 42, 65, 0.452);
+  border: 0;
+}
+
+.dark-theme .faq-question span {
+  color: white;
+}
+
+.dark-theme .faq-toggle {
+  background-color: rgba(46, 42, 65, 0.452);
+}
+
+.dark-theme .img-fotter h3 {
+  background-color: white;
+}
+
+.dark-theme .footer-h3 {
+  color: white;
+}
+
+.dark-theme .input-group {
+  background-color: black;
+}
+
+.dark-theme .input-group input {
+  background-color: black;
+}
+
+.dark-theme .all-rights {
+  background-color: black;
+}
+
+.dark-theme .paragraf p {
+  color: white;
+}
+
+.dark-theme .contact-info h2 {
+  color: white;
+}
+
+.dark-theme .contact-text h3 {
+  color: white;
+}
+
+.dark-theme .icon-container {
+  background-color: black;
+}
+
+.dark-theme .input-box h2 {
+  color: black;
+}
+
+.dark-theme .background {
+  background-color: 0;
+}
+
+.dark-theme .down-section-text h3 {
+  color: white;
+} */
+
+/* Chat gpt snyggade till min kod som jag skrev ovan  */
+
+.dark-theme {
+  background: linear-gradient(
+    170deg,
+    rgb(13, 14, 36) 0%,
+    rgb(28, 15, 46) 30%,
+    rgb(12, 13, 22) 50%
+  );
+}
+
+.dark-theme .section-six h2 {
+  color: white;
+}
+
+.dark-theme .section-two,
+.dark-theme .section-flower,
+.dark-theme .section-six,
+.dark-theme .icon-container,
+.dark-theme .input-group,
+.dark-theme .input-group input,
+.dark-theme .all-rights {
+  background: linear-gradient(
+    170deg,
+    rgb(12, 13, 22) 50%,
+    rgb(28, 15, 46) 30%,
+    rgb(13, 14, 36) 0%
+  );
+}
+.dark-theme .section-one svg {
+  background-color: rgb(76, 76, 107);
+}
+
+.dark-theme .navbar a,
+.dark-theme .dark-mode-toggle #dark-mode,
+.dark-theme .text-content h1,
+.dark-theme .app-feature-text h2,
+.dark-theme .feature h3,
+.dark-theme .section-tree h2,
+.dark-theme .section-flower-top-text h2,
+.dark-theme .section-flower-bottom h2,
+.dark-theme .section-five-customers h2,
+.dark-theme .testimonial-bubble-name h5,
+.dark-theme .faq-question span,
+.dark-theme .footer-h3,
+.dark-theme .paragraf p,
+.dark-theme .contact-info h2,
+.dark-theme .contact-text h3,
+.dark-theme .down-section-text h3 {
+  color: white;
+}
+
+.dark-theme .brands {
+  color: transparent;
+  background-color: transparent;
+}
+
+.dark-theme .testimonial-bubble,
+.dark-theme .contact-container,
+.dark-theme .faq-item,
+.dark-theme .faq-toggle {
+  background-color: rgba(46, 42, 65, 0.452);
+  border: 0;
+}
+
+.dark-theme p,
+.dark-theme .checklist li {
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.dark-theme .img-fotter h3 {
+  background-color: white;
+}
+
+.dark-theme .input-box h2 {
+  color: black;
+}
+
+.dark-theme .background {
+  background-color: transparent;
+}
+
+.dark-theme .input-group input {
+  color: white;
+}

@@ -1,14 +1,15 @@
 import '../section-one/section-one.css';  
-import Logo from '../../../public/images/navbar/logo.png'
 import { Link } from 'react-router-dom';
+import LogoLight from '../../../public/images/navbar/logo.png'
+import LogoDark from '../../../public/images/navbar/logo-dark.png'
 
-const Navbar = () => {
+const Navbar = ({ toggleTheme, isDarkMode }) => {
   return (
     <div className='section'>
     <nav className="navbar">
     <div className="logo">
     <Link to="/">
-            <img src={Logo} alt="Silicon.logo" />
+            <img src={isDarkMode ? LogoDark : LogoLight} alt="Silicon.logo" />
           </Link>
       <ul className="nav-links">
         <li className='feat'>
@@ -21,7 +22,7 @@ const Navbar = () => {
     <div className="dark-mode-toggle">
       <label htmlFor="dark-mode" id="dark-mode">Dark Mode</label>
       <label className="switch">
-        <input type="checkbox" />
+        <input type="checkbox" checked={isDarkMode} onChange={toggleTheme} />
         <span className="slider round"></span>
       </label>
       
@@ -47,6 +48,8 @@ const Navbar = () => {
   </div>
   
   );
+  
 };
+
 
 export default Navbar;

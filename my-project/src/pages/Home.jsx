@@ -5,15 +5,16 @@ import SectionFour from '../components/section-flower/section-flower';
 import SectionFive from '../components/section-five/section-five';
 import SectionSix from '../components/section-six/section-six';
 
-const Home = () => {
+const Home = ({isDarkMode}) => {
+  console.log(isDarkMode)
   return  <> 
     
-    <SectionOne />
-    <SectionTwo />
-    <SectionThree />
-    <SectionFour />
-    <SectionFive />
-    <SectionSix />
+    <SectionOne isDarkMode={isDarkMode}/>
+    <SectionTwo isDarkMode={isDarkMode}/>
+    <SectionThree isDarkMode={isDarkMode}/>
+    <SectionFour isDarkMode={isDarkMode}/>
+    <SectionFive isDarkMode={isDarkMode}/>
+    <SectionSix isDarkMode={isDarkMode}/>
     
     </>
  

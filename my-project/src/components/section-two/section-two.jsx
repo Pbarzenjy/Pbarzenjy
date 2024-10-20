@@ -4,6 +4,12 @@ import Logo1 from '../../../public/images/sectiontwo/logo-1.png'
 import Logo2 from '../../../public/images/sectiontwo/logo-2.png'
 import Logo3 from '../../../public/images/sectiontwo/logo-3.png'
 import Logo4 from '../../../public/images/sectiontwo/logo-4.png'
+import LogoOnedark from '../../../public/images/sectiontwo/logo1-dark.png'
+import Logo1dark from '../../../public/images/sectiontwo/logo-1-dark.png'
+import Logo2dark from '../../../public/images/sectiontwo/logo-2-dark.png'
+import Logo3dark from '../../../public/images/sectiontwo/logo-3.-dark.png'
+import Logo4dark from '../../../public/images/sectiontwo/logo-4-dark.png'
+import Logo5dark from '../../../public/images/sectiontwo/logo-5-dark.png'
 import AppFeature from '../../../public/images/sectiontwo/app-feature-phone.png'
 import EasyPayment from '../../../public/images/sectiontwo/EasyPayment.png'
 import Regular from '../../../public/images/sectiontwo/regular.png'
@@ -11,17 +17,18 @@ import Coststatistics from '../../../public/images/sectiontwo/Coststatistics.png
 import Datasec from '../../../public/images/sectiontwo/datasec.png'
 import Support from '../../../public/images/sectiontwo/support.png'
 import Topstand from '../../../public/images/sectiontwo/topstand.png'
-const SectionTwo = () => {
+const SectionTwo = ({isDarkMode}) => {
+  console.log(isDarkMode)
   return (
 <div className ="section-two">
         <div className ="section">
           <div className ="brands">
-            <img src={LogoOne} alt="logo" />
-            <img src={Logo1} alt="logo" />
-            <img src={Logo2} alt="logo" />
-            <img src={Logo3} alt="logo" />
-            <img src={Logo4} alt="logo" />
-            <img src={Logo2} alt="logo" />
+            <img src={isDarkMode ? LogoOnedark : LogoOne} alt="logo" />
+            <img src={isDarkMode ? Logo1dark : Logo1} alt="logo" />
+            <img src={isDarkMode ? Logo2dark : Logo2} alt="logo" />
+            <img src={isDarkMode ? Logo3dark : Logo3} alt="logo" />
+            <img src={isDarkMode ? Logo4dark : Logo4} alt="logo" />
+            <img src={isDarkMode ? Logo5dark : LogoOne} alt="logo" />
           </div>
           <div className ="app-feature-container">
             <div className ="phone-two">

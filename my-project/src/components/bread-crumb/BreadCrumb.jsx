@@ -1,14 +1,15 @@
-import "./BreadCrumb.css"
+import "./BreadCrumb.css";
+import { TiHomeOutline } from "react-icons/ti";
 
 const BreadCrumb = () => {
-  return  <ul className="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Pictures</a></li>
-  <li><a href="#">Summer 15</a></li>
-  <li>Italy</li>
-</ul> ;
+  return (
+    <nav className="breadcrumb">
+      <TiHomeOutline />
+      <a href="#" className="breadcrumb-item">Homepage</a>
+      <span className="breadcrumb-separator">»</span>
+      <a href="#" className="breadcrumb-item breadcrumb-active">Contact</a>
+    </nav>
+  );
 };
 
-
-
-export default BreadCrumb
+export default BreadCrumb;

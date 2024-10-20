@@ -138,7 +138,7 @@ input:checked + .slider:before {
 
 .discover-btn svg {
   padding: 0.44rem;
-  background-color: white;
+  background-color: #fdfdfd;
   border-radius: 50%;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -170,11 +170,11 @@ content {
 }
 
 .sign-in-button {
-  background-color: #5a67d8; /* Blå färg */
-  color: white; /* Textfärg */
-  border: none; /* Ingen kantlinje */
-  border-radius: 5px; /* Rundade hörn */
-  padding: 10px 20px; /* Inre marginaler för att göra knappen större */
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
   font-size: large;
   display: flex;
   align-items: center;
@@ -183,14 +183,13 @@ content {
 }
 
 .sign-in-button span {
-  font-size: 18px; /* Storlek på ikonen */
+  font-size: 18px;
 }
 
-/* Stil vid hovring */
 .sign-in-button:hover {
-  background-color: #4c51bf; /* Lite mörkare blå färg vid hovring */
-  text-decoration: wavy; /* Lägg till en vågig understrykning vid hovring */
-  color: #e0e0e0; /* Ljusare textfärg vid hovring */
+  background-color: #4c51bf;
+  text-decoration: wavy;
+  color: #e0e0e0;
 }
 
 .text-content {
